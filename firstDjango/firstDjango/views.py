@@ -6,7 +6,7 @@ def home(request):
 # i need to create a these pages as an assignments
 
 def about(request):
-    return HttpResponse("Hello about page")
+    return render(request,'website/about.html')
 
 def contact(request):
     return HttpResponse("hello Contact Page")
